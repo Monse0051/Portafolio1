@@ -176,7 +176,7 @@ ion-icon {
 @media screen and (max-width: 1024px){
   .about-me-pic{
     /* float: left; */
-    height: 32vh;
+    /* height: 80vh; */
     width: 70vw; 
     margin-left: 15%;
     margin-right: 8%;
@@ -187,7 +187,7 @@ ion-icon {
     margin-right: 10%; 
     margin-bottom: 10%;
     width: 80vw;
-    height: 10vh;
+    /* height: 10vh; */
     font-size: 20px;
   }    
 
@@ -204,7 +204,14 @@ ion-icon {
     /* height: 75vh; */
   }
 
-  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
    /* .about-me{
     width: 100%;
     display: grid;
@@ -214,7 +221,7 @@ ion-icon {
   
 }
 
-@media screen and (max-width: 425px) { 
+@media screen and (max-width: 426px) { 
   .intro h1 {
     color: #59A496;
     text-align: center;
